@@ -1,34 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+<html lang="lt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
+    
     <div class="menu">
-        <ul class="snip1155">
-          <li class="current"><a href="#">Pradžia</a></li>
-          <li><a href="#">Darbai</a></li>
-          <li><a href="#">Kontaktai</a></li>
-        </ul>
-      </div>
-      <div class="menu__toggler"><span></span></div>
-       
-      <div class="container">
-        <h1>Bandymas</h1>
-
-
-      </div>
-
-      <a class="linkin" alt="LinkIn Logo" href="" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
-    
-
-    
-    
-</body>
-<script type="text/javascript" src="script.js"></script>
+      <a href="#" onclick="return toggle('pradzia')">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        PRADŽIA</a
+      >
+      <br />
+      <a href="#" onclick="return toggle('darbai')">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        DARBAI</a
+      >
+      <br />
+      <a href="#" onclick="return toggle('kontaktai')">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        KONTAKTAI</a
+      >
+    </div>
+    <div class="menu__toggler"><span></span></div>
+    <div id="container">
+    <div id='pradzia' class="container" data-tilt data-tilt-axis="x">
+        <h1>&#x3c;/> NeoCoding</h1>
+        <p>
+          
+        </p> 
+    </div>
+    <div id='darbai' class="container" data-tilt data-tilt-axis="x">
+      <h1>Darbai</h1>
+      <p>
+        
+      </p> 
+  </div>
+  <div id='kontaktai' class="container" data-tilt data-tilt-axis="x">
+    <h1>Kontaktai</h1>
+    <p>
+      
+    </p> 
+</div>
+</div>
+  
+    <a class="linkin" alt="LinkIn Logo" href="" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path
+          d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg></a>
+    <script type="text/javascript">
+    </script>
+  </body>
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
 </html>
